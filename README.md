@@ -4,6 +4,7 @@ Lean problems for the course Analyysi 2 at the University of Helsinki.
 
 The sheets (each link opens the file in the web editor):
 
+- [`Demo.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FDemo.lean): the lecture demo, with solutions
 - [`Problems.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FProblems.lean): problems for the first session, in class
 - [`Homework.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FHomework.lean): homework
 
@@ -28,8 +29,8 @@ a file, before you close the tab.
 This needs about 6 GB of disk space and a good internet connection.
 Do it at home, not during the lecture.
 
-1. Install [VS Code](https://code.visualstudio.com/) and its extension
-   *Lean 4*. The extension offers to install Lean (`elan`) for you: accept.
+1. Install Lean and VS Code as described in
+   https://lean-lang.org/install/.
 2. Download this repository: either clone it with git,
 
        git clone https://github.com/l-oksanen/analysis2
