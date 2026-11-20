@@ -107,6 +107,16 @@ theorem contAt_linear (k b a : ℝ) : ContAt (fun x => k * x + b) a := by
         _ = ε := by grind
 /-
 
+Adding a constant preserves continuity.
+-/
+theorem contAt_add_const (f : ℝ → ℝ) (a c : ℝ) (hf : ContAt f a) :
+    ContAt (fun x => f x + c) a := by
+  intro ε hε
+  obtain ⟨δ, hδ, h⟩ := hf ε hε
+  use δ
+  grind
+/-
+
 ## 3. Mathlib's definition
 
 Mathlib, Lean's mathematics library, already defines continuity, in a

@@ -55,3 +55,24 @@ Check what is free at the time you sign up.
 
 General chatbots can help too. For instance, Claude Opus 5.5 is very good at Lean. Paste the error message back to them,
 or read it yourself: understanding Lean's messages is part of the course.
+
+## Pointers for Lean resources
+
+* Kevin Buzzard,
+  [Formalising Mathematics](https://www.ma.imperial.ac.uk/~buzzard/xena/formalising-mathematics-2024/)
+  ([PDF](https://www.ma.imperial.ac.uk/~buzzard/xena/formalising-mathematics-2024/formalisingmathematics.pdf),
+  [Lean repository](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024))
+* Lauri Oksanen and Niklas Halonen,
+  [Notes on Lean](https://l-oksanen.github.io/lean-notes/)
+  ([Lean repository](https://github.com/l-oksanen/lean-notes))
+
+The two complement each other. Buzzard's course notes teach how to formalize
+mathematics in practice: they are written for mathematicians, work through
+topics such as logic, sets, analysis and algebra with Mathlib, and are
+learned mainly by solving exercise sheets with tactics. 
+
+Notes on Lean instead
+explain what lies underneath: Lean's type theory as a language for formal
+proofs, its kernel primitives (universes, function types and inductive
+types), how equality, the natural numbers, type classes and
+coercions are built from them, and the axioms Lean adds. 
