@@ -7,6 +7,7 @@ The sheets (each link opens the file in the web editor):
 - [`Demo.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FDemo.lean): the lecture demo, with solutions
 - [`Problems.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FProblems.lean): problems for the first session, in class
 - [`Homework.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FHomework.lean): homework
+- [`Homework2.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FHomework2.lean): second homework
 
 There are two ways to work on the sheets. The web editor is enough for
 the in-class problems.
