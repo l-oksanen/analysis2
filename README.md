@@ -5,6 +5,7 @@ Lean problems for the course Analyysi 2 at the University of Helsinki.
 The sheets (each link opens the file in the web editor):
 
 - [`Demo.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FDemo.lean): the lecture demo, with solutions
+- [`Demo2.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FDemo2.lean): second demo: the basic structure of the language
 - [`Problems.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FProblems.lean): problems for the first session, in class
 - [`Homework.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FHomework.lean): homework
 - [`Homework2.lean`](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fl-oksanen%2Fanalysis2%2Fmain%2FHomework2.lean): second homework
