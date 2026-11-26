@@ -33,6 +33,8 @@ def p : ℕ × ℕ := (0, 1)
 Types are expressions too.
 -/
 #check ℕ
+
+example : (ℕ × ℕ) = (Prod Nat Nat) := rfl
 /-
 
 ## 2. Propositions
@@ -68,6 +70,8 @@ A function takes exactly one argument. Several arguments are notation.
 -/
 def add : ℕ → (ℕ → ℕ) := fun n => (fun m => n + m)
 
+example : (ℕ → (ℕ → ℕ)) = (ℕ → ℕ → ℕ) := rfl
+
 def add' (n m : ℕ) : ℕ := n + m
 
 example : add = add' := rfl
@@ -80,11 +84,15 @@ example : 1 = 0 → 1 = 0 := fun h => h
 
 So is `∀`: the type of the value depends on the argument.
 -/
-example : ∀ n : ℕ, n + 1 ≠ 0 := nofun
+example (n : ℕ) : n + 1 ≠ 0 := nofun
 
 example : (n : ℕ) → n + 1 ≠ 0 := nofun
 
+example : ∀ n : ℕ, n + 1 ≠ 0 := nofun
+
 example : (∀ n : ℕ, n + 1 ≠ 0) = ((n : ℕ) → n + 1 ≠ 0) := rfl
+
+example (p : Prop) : p → p := id
 /-
 
 ## 5. Inductive types
@@ -125,6 +133,13 @@ inductive Prod' (α β : Type) : Type where
   | mk (fst : α) (snd : β) : Prod' α β
 
 def p' : Prod' Nat' Nat' := Prod'.mk z' (Nat'.succ z')
+/-
 
+`And` is a product type.
+-/
 #print And
+/-
+
+`Or` has two constructors.
+-/
 #print Or
